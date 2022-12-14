@@ -1,0 +1,28 @@
+asenext_test.settings_form:
+  title: 'ASENext Test'
+  description: 'Configure ASENext Test.'
+  parent: system.admin_config_system
+  route_name: asenext_test.settings_form
+  weight: 10
+
+entity.student.settings:
+  title: 'Student'
+  description: 'Configure a Student entity type.'
+  route_name:  entity.student.settings
+  parent: system.admin_structure
+entity.student.collection:
+  title: 'Students'
+  description: 'List of students.'
+  route_name: entity.student.collection
+  parent: system.admin_content
+
+entity.result.settings:
+  title: 'Result'
+  description: 'Configure a Result entity type.'
+  route_name:  entity.result.settings
+  parent: system.admin_structure
+entity.result.collection:
+  title: 'Results'
+  description: 'List of results.'
+  route_name: entity.result.collection
+  parent: system.admin_content

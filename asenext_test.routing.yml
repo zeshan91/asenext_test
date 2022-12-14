@@ -1,0 +1,23 @@
+asenext_test.settings_form:
+  path: '/admin/config/system/asenext-test'
+  defaults:
+    _title: 'ASENext Test settings'
+    _form: 'Drupal\asenext_test\Form\SettingsForm'
+  requirements:
+    _permission: 'administer asenext_test configuration'
+
+entity.student.settings:
+  path: 'admin/structure/student'
+  defaults:
+    _form: '\Drupal\asenext_test\Form\StudentSettingsForm'
+    _title: 'Student'
+  requirements:
+    _permission: 'administer student'
+
+entity.result.settings:
+  path: 'admin/structure/result'
+  defaults:
+    _form: '\Drupal\asenext_test\Form\ResultSettingsForm'
+    _title: 'Result'
+  requirements:
+    _permission: 'administer result'

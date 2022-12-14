@@ -1,0 +1,12 @@
+name: ASENext Test
+type: module
+description: ASENext Test module
+package: Custom
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:views
+  - drupal:verf
+  - drupal:taxonomy
+  - drupal:entity_redirect
+  - drupal:views_data_export
+  - drupal:xls_serialization

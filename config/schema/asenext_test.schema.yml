@@ -1,0 +1,11 @@
+# Schema for the configuration files of the ASENext Test module.
+asenext_test.settings:
+  type: config_object
+  label: 'ASENext Test settings'
+  mapping:
+    min_score:
+      type: number
+      label: 'Min Score'
+    max_score:
+      type: number
+      label: 'Max Score'

@@ -1,0 +1,23 @@
+administer student:
+  title: 'Administer student settings'
+  restrict access: true
+delete student:
+  title: Delete student
+create student:
+  title: Create student
+view student:
+  title: View student
+edit student:
+  title: Edit student
+
+administer result:
+  title: 'Administer result settings'
+  restrict access: true
+delete result:
+  title: Delete result
+create result:
+  title: Create result
+view result:
+  title: View result
+edit result:
+  title: Edit result
